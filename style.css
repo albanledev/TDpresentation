@@ -62,3 +62,23 @@ li{
       top: 78px;
     }
   }
+
+
+.bloc-informations-ryan{
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.photo-ryan{
+    max-width: 30%;
+    width: 50%;
+    padding: 15px;
+}
+
+.informations-ryan{
+    padding: 15px;
+    width: 50%;
+}

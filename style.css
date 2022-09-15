@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prenoms{
+    display:inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.navbar{
+    background-color: black;
+    padding: 25px;
+}

@@ -36,7 +36,7 @@ li{
 }
 
 .navbar::after{
-    content: "Les piliers du groupe";
+    content: "✨Mathis";
     position: absolute;
     width: 60%;
     height: 70px;
@@ -51,6 +51,10 @@ li{
     animation-name: slidein;
     animation-fill-mode: forwards;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+main{
+    background-color: #98FB98;
 }
 
 @keyframes slidein {

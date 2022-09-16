@@ -81,4 +81,21 @@ li{
 .informations-ryan{
     padding: 15px;
     width: 50%;
+   
+
 }
+
+.titre-on-me{
+    text-align: left;
+    border: #0088a9 solid 2px;
+    padding: 20px;
+}
+
+.sous-titre{
+    text-align: left;
+    border: #0088a9 solid 2px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+

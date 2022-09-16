@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2? family= Lato:wght@700 & family= Roboto:ital@1 & family= Source+Serif+Pro:wght@600 & display= échanger');
-
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Lato:wght@700&family=Oleo+Script+Swash+Caps&family=Roboto:ital@1&family=Source+Serif+Pro:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -69,13 +67,25 @@ li{
   {
     height: 500px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    animation-name: apparition;
+    animation-duration: 2s;
     
+  }
+
+  @keyframes apparition{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
   }
 
   main{
     margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .triangle {
@@ -122,7 +132,7 @@ li{
 
 .name{
     animation-name: name;
-    animation-delay: 5s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
     animation-duration: 5s;
     z-index: 12;
@@ -141,6 +151,8 @@ li{
     align-items: center;
     font-family: "Lato",sans-serif;
     visibility: hidden;
+    /* padding-top: 150px; */
+    /* transform: translateY(130px); */
 
 }
 
@@ -153,18 +165,26 @@ li{
         position: absolute;
         bottom: cover;
         /* top: 0; */
-        left: 0;
+        /* left: 0; */
         animation-timing-function: cubic-bezier(1.5, 0.82, 0.165, 1);
+        
         /* display: none; */
         visibility: visible;
+        font-size: 0em;
+        
+        
 
+    }
+
+    35%{
+        font-size: 5em;
     }
 
     50%{
         animation-timing-function:cubic-bezier(0.25, 0.25, 0.25, 0.25);
         background-color: palevioletred;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         position: absolute;
         bottom: 0;
         /* top: 0; */
@@ -183,3 +203,157 @@ li{
         left: 0;
     }
 }
+html,body  
+{  
+animation-name: bloquer;
+animation-duration: 20s ;
+}  
+
+@keyframes bloquer{
+    
+    0%
+{  
+overflow:hidden;  
+}  
+
+100%{
+    overflow: visible;
+}
+
+}
+
+.suite{
+    margin-top: 50px;
+}
+
+
+.p1{
+    max-width: 1300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color:#24252a;
+    font-size: 1.15em;
+    /* background-color: orange; */
+    color: black;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Fresca', sans-serif;
+    color: #0088a9;
+}
+
+.dash
+{
+    width: 100%;
+    border: 6px orange dashed;
+    height: 0;
+    border-bottom: none;
+}
+
+
+.triangle2 {
+    position: relative;
+    background: #0088a9;
+    height: cover;
+  }
+  
+  /* .triangle2::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 100px 0 100px;
+    border-color: #0088a9 transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(-830px) rotate(180deg);
+  } */
+
+  .triangle2::before,.triangle2 {
+    margin-top: 100px;
+  }
+
+  .gabi2{
+    /* width: 500px; */
+    z-index: 200;
+    width: 350px;
+  }
+
+  .flex2{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+
+  @media screen and (max-width:800px) {
+
+      .flex2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .gabi2{
+    /* width: 500px; */
+    z-index: 200;
+    width: 350px;
+    margin-top: 30px;
+  }
+
+  .triangle{
+    display: none;
+  }
+  }
+
+  @media screen and (max-width:600px) {
+
+  .p2{
+    /* max-width: 1300px; */
+    width: 80%;
+    /* max-width: 80%; */
+    margin: auto;
+    margin-top: 30px;
+    /* margin: auto; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.15em;
+    /* background-color: orange; */
+    color: white;
+    border-radius: 25px;
+    /* padding: 10px; */
+  }
+
+  h2.secondTitle{
+    /* text-align: center; */
+    font-family: 'Fresca', sans-serif;
+    color: orange;
+}
+
+.gabiPassion{
+    margin-top: 50px;
+}
+
+.gabi2{
+
+    /* width: 500px; */
+    z-index: 200;
+    width: 100%;
+    margin-top: 30px;
+
+
+
+  }
+  }
+
+
+
+
+
+
+  
+

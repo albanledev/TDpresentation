@@ -54,19 +54,47 @@ li{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-main{
-
-}
 
 .Presentation{
-    margin-left: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 100px;
     display: flex;
     font-size: larger;
+    background-color: #98FB98
+
 }
 .textPresentation{
     margin-top: 250px;
-    margin-left: 80px;
+    margin-left: 100px;
+}
+.slider{
+    width: 420px;
+    overflow: hidden;
+    margin-left: 300px ;
+}
+.slides{
+    width: calc(420px*3);
+    animation: glisse 5s infinite;
+}
+
+.slide{
+    float: left;
+}
+
+@keyframes glisse {
+    0%{
+        transform: translateX(0);
+    }    
+    33%{
+        transform: translateX(-420px);
+    }    
+    66%{
+        transform: translateX(-840px);
+    }    
+    100%{
+        transform: translateX(0);
+    }
 }
 
 @keyframes slidein {

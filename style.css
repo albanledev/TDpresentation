@@ -63,23 +63,28 @@ li{
     }
   }
 
+/*Begining of the styles proper to Ryan's page*/
 
 .bloc-informations-ryan{
     display: flex;
     flex-direction: row;
-    margin-top: 160px;
+    margin-top: 190px;
     gap: 100px;
     justify-content: center;
 }
 
+.picture-block{
+    
+    max-width: 40%;
+    text-align: center;
+    
+}
+
 .photo-ryan{
-    max-width: 30%;
-    width: 50%;
-    padding: 15px;
+    max-width: 50%;
 }
 
 .informations-ryan{
-    padding: 15px;
     width: 50%;
    
 
@@ -92,6 +97,7 @@ li{
     font-family: "Roboto";
     text-align: center;
 }
+
 .sous-titre{
     text-align: left;
     background-color: orange;
@@ -101,13 +107,12 @@ li{
 }
 
 .likings-block{
-    background-color: rgb(179, 148, 117);
+    background-color: rgb(240, 179, 118);
     padding-bottom: 20px;
 }
 
 .linkings-text{
     font-family: "Roboto";
-    margin-top: 20px;
     padding: 10px;
 }
 
@@ -117,10 +122,44 @@ li{
     margin: auto;
 }
 
-.hobbies-text{
-    font-family: "Roboto";
+
+.personality-block{
+    background-color: rgb(133, 196, 235);
+    padding-bottom: 20px;
+}
+
+.project-block{
+    background-color: rgb(231, 224, 145);
+    padding-bottom: 20px;
 }
 
 .project-text{
     font-family: "Roboto";
+}
+.text-italic {
+    font-style: italic;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.bloc-footer{
+    padding: 40px;
+    background-color: #1e1a1a;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.darkmode-button{
+    background-color: #8b8a8a;
+    border-radius: 6px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.darkmode-button:hover{
+    cursor: pointer;
+    background-color: #203f47;
 }

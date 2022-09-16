@@ -87,21 +87,40 @@ li{
 
 .titre-on-me{
     text-align: left;
-    border: #0088a9 solid 2px;
+    background-color: orange;
     padding: 20px;
+    font-family: "Roboto";
+    text-align: center;
 }
-
 .sous-titre{
     text-align: left;
-    border: #0088a9 solid 2px;
+    background-color: orange;
     margin-top: 20px;
     padding: 20px;
+    font-family: "Roboto";
+}
+
+.likings-block{
+    background-color: rgb(179, 148, 117);
+    padding-bottom: 20px;
 }
 
 .linkings-text{
+    font-family: "Roboto";
+    margin-top: 20px;
+    padding: 10px;
+}
 
+.picture{
+    
+    display: block;
+    margin: auto;
 }
 
 .hobbies-text{
-    
+    font-family: "Roboto";
+}
+
+.project-text{
+    font-family: "Roboto";
 }

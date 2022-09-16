@@ -36,7 +36,7 @@ li{
 }
 
 .navbar::after{
-    content: "Les piliers du groupe";
+    content: "Ryan 💪🏼";
     position: absolute;
     width: 60%;
     height: 70px;
@@ -98,4 +98,10 @@ li{
     padding: 20px;
 }
 
+.linkings-text{
 
+}
+
+.hobbies-text{
+    
+}

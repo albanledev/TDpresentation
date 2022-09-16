@@ -262,9 +262,9 @@ h2{
     height: cover;
   }
   
-  /* .triangle2::before {
+  .triangle2::before {
     content: '';
-    position: absolute;
+    position:absolute;
     bottom: 0;
     width: 0;
     height: 0;
@@ -272,8 +272,8 @@ h2{
     border-width: 100px 100px 0 100px;
     border-color: #0088a9 transparent transparent transparent;
     left: 50%;
-    transform: translateX(-50%) translateY(-830px) rotate(180deg);
-  } */
+    transform: translateX(-50%) translateY(-500px) rotate(180deg);
+  }
 
   .triangle2::before,.triangle2 {
     margin-top: 100px;
@@ -283,6 +283,8 @@ h2{
     /* width: 500px; */
     z-index: 200;
     width: 350px;
+    margin-top: 50px;
+    margin-right: 100px;
   }
 
   .flex2{
@@ -292,6 +294,25 @@ h2{
   }
 
   @media screen and (max-width:800px) {
+
+    .triangle2::before {
+        content: '';
+        position:absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 100px 100px 0 100px;
+        border-color: #0088a9 transparent transparent transparent;
+        left: 50%;
+        transform: translateX(-50%) translateY(-800px) rotate(180deg);
+      }
+
+    .p2{
+        margin-top: 50px;
+    }
+
+
 
       .flex2{
     display: flex;
@@ -303,7 +324,8 @@ h2{
     /* width: 500px; */
     z-index: 200;
     width: 350px;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin: auto;
   }
 
   .triangle{
@@ -311,20 +333,21 @@ h2{
   }
   }
 
-  @media screen and (max-width:600px) {
+
 
   .p2{
     /* max-width: 1300px; */
-    width: 80%;
+    width: 70%;
     /* max-width: 80%; */
     margin: auto;
-    margin-top: 30px;
+    margin-top: 70px;
+    line-height: 25px;
     /* margin: auto; */
     font-family:'Times New Roman', Times, serif;
-    font-size: 1.15em;
+    font-size: 1.3em;
     /* background-color: orange; */
     color: white;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     /* padding: 10px; */
   }
 
@@ -332,10 +355,43 @@ h2{
     /* text-align: center; */
     font-family: 'Fresca', sans-serif;
     color: orange;
+    margin-top: 70px;
 }
+
+
+  @media screen and (max-width:650px) {
+
+    h2.secondTitle{
+        /* text-align: center; */
+        font-family: 'Fresca', sans-serif;
+        color: orange;
+        margin-top: 0px;
+    }
+
+    
+
+    .p2{
+        /* max-width: 1300px; */
+        width: 70%;
+        /* max-width: 80%; */
+        margin: auto;
+        margin-top: 40px;
+        /* margin: auto; */
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.15em;
+        /* background-color: orange; */
+        color: white;
+        /* border-radius: 25px; */
+        /* padding: 10px; */
+      }
+
 
 .gabiPassion{
     margin-top: 50px;
+}
+
+.main_img{
+    width: cover;
 }
 
 .gabi2{
@@ -348,6 +404,10 @@ h2{
 
 
   }
+
+  .triangle2::before {
+    display: none;
+  }
   }
 
 
@@ -355,5 +415,74 @@ h2{
 
 
 
-  
 
+  
+div.flex3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.gabi3{
+   width: 350px;
+}
+
+.p3{
+    font-family: 'Times New Roman', Times, serif;
+    width: 50vw;
+    font-size: 1.2em;
+    /* margin-left: 50%; */
+    margin-top: 30px;
+}
+
+@media screen and (max-width:774px){
+     .lezgo{
+       text-align: center;
+       width: 200px;
+        
+    }
+
+    .gabi3{
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    .p3, .lezgo{
+        margin-left: 50%;
+    }
+}
+
+.sep::after{
+    content: "";
+    
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    height: 20px;
+    z-index: 300;
+    transform-origin: 0%
+    ;
+}
+
+/* Big triangle */
+
+.triangle3 {
+    position: relative;
+    background: #2c3e50;
+    height: cover;
+  }
+  
+  .triangle3::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 754px 754px 0 754px;
+    border-color: #2c3e50 transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%) rotate(180deg);
+  }

@@ -426,6 +426,7 @@ div.flex3{
 
 .gabi3{
    width: 350px;
+   transform: scale(1.001,1.001) translateY(5px);
 }
 
 .p3{
@@ -434,6 +435,7 @@ div.flex3{
     font-size: 1.2em;
     /* margin-left: 50%; */
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width:774px){
@@ -466,23 +468,39 @@ div.flex3{
     ;
 }
 
-/* Big triangle */
 
-.triangle3 {
-    position: relative;
-    background: #2c3e50;
+
+.skewed {
+
+    width: 100%;
     height: cover;
+    background: linear-gradient(#0088A9,#2C3E50);
+    z-index: 0;
+    /* transform: skewY(6deg); */
+    /* transform-origin: top right; */
+    /* transform: translateY(-4px); */
   }
-  
-  .triangle3::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 754px 754px 0 754px;
-    border-color: #2c3e50 transparent transparent transparent;
-    left: 50%;
-    transform: translateX(-50%) translateY(100%) rotate(180deg);
+
+  .skewed h2{
+    /* transform: rotate(180deg) translateY(-900px); */
+    color: orange;
+    padding-top: 40px;
+    
+    
+  }
+
+  .alban{
+    /* transform: translateY(450px) rotate(180deg); */
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 30vw; */
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+  }
+
+  .flex4{
+    display: flex;
+    justify-content: center;
   }

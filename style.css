@@ -53,6 +53,86 @@ li{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
+mark{
+    background-color: #0087a900;
+}
+
+
+mark:hover{
+    padding: 10px;
+    background-color: #ff0000;
+    transition: all 0.3s ease 0s;
+    color: white;
+
+}
+.mark2{
+    background-color: #0087a900;
+}
+
+
+.mark2:hover:hover{
+    padding: 10px;
+    background-color: #0026ff;
+    transition: all 0.3s ease 0s;
+    color: white;
+
+}
+
+.text1{
+    font-family: 'Lato';
+}
+.text2{
+    font-family: 'Lato';
+    font-size: large;
+    margin-right: 50px;
+}
+.text3{
+    font-family: 'Lato';
+    font-size: large;
+    margin-left: 50px;
+}
+.imgzyzz{
+    width: 20%;
+
+}
+.prez{
+    margin-top: 100px;
+    background: linear-gradient(blue, rgb(255, 0, 0));
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bloc1{
+    margin-top: 140px;
+    margin-left: 130px;
+}
+
+.flex1{
+    
+    margin-top: 50px;
+    margin-right: 130px;
+    display: flex;
+}
+
+.imageprez{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes slidein {
     from {
         top: 0;

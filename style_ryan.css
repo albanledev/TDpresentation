@@ -4,13 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .prenoms{
     display:inline-block;
     text-decoration: none;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
     
 }
@@ -45,7 +45,7 @@ li{
     padding-top: 30px;
     text-align: center;
     font-size: 1.3em;
-    font-family:'Lato',sans-serif;
+    font-family:sans-serif;
     color:#1e1a1a;
     animation-duration: 2s;
     animation-name: slidein;
@@ -109,7 +109,7 @@ li{
     text-align: left;
     background-color: orange;
     padding: 20px;
-    font-family: "Roboto";
+    
     text-align: center;
 }
 
@@ -118,7 +118,7 @@ li{
     background-color: orange;
     margin-top: 20px;
     padding: 20px;
-    font-family: "Roboto";
+    
 }
 
 .likings-block{
@@ -148,9 +148,7 @@ li{
     
 }
 
-.project-text{
-    font-family: "Roboto";
-}
+
 .text-italic {
     font-style: italic;
     color: #5a5a5a;

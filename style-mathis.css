@@ -54,6 +54,10 @@ li{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
+main{
+    font-family:'Lato',sans-serif;
+}
+
 .titrePresentation{
     display: flex;
     margin-left: 300px;

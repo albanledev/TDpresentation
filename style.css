@@ -63,7 +63,21 @@ li{
     }
   }
 
+
+
+
+
 /*Begining of the styles proper to Ryan's page*/
+
+@keyframes block-enter-picture {
+    from{top: 0px; left:-50%;}
+    to{top: 0px; left:0%;}
+}
+@keyframes block-enter-infos {
+    from{top: 0px; right:-50%;}
+    to{top: 0px; right:0%;}
+}
+
 
 .bloc-informations-ryan{
     display: flex;
@@ -71,23 +85,30 @@ li{
     margin-top: 190px;
     gap: 100px;
     justify-content: center;
+    
 }
 
 .picture-block{
     
     max-width: 40%;
     text-align: center;
-    
+    position: relative;
+    animation-name: block-enter-picture;
+    animation-duration: 2s;
 }
 
 .photo-ryan{
     max-width: 50%;
+    position: sticky;
+    top: 0;
+    
 }
 
 .informations-ryan{
     width: 50%;
-   
-
+    animation-name: block-enter-infos;
+    animation-duration: 2s;
+    position: relative;
 }
 
 .titre-on-me{
@@ -162,4 +183,9 @@ li{
 .darkmode-button:hover{
     cursor: pointer;
     background-color: #203f47;
+}
+
+.dark-mode{
+    background-color: #203f47;
+    color: seashell;
 }

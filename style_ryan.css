@@ -63,10 +63,6 @@ li{
     }
   }
 
-
-
-
-
 /*Begining of the styles proper to Ryan's page*/
 
 @keyframes block-enter-picture {
@@ -89,7 +85,6 @@ li{
 }
 
 .picture-block{
-    
     max-width: 40%;
     text-align: center;
     position: relative;
@@ -100,8 +95,7 @@ li{
 .photo-ryan{
     max-width: 50%;
     position: sticky;
-    top: 0;
-    
+    top: 0;   
 }
 
 .informations-ryan{
@@ -191,4 +185,19 @@ li{
 }
 .project-ryan-video{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .bloc-informations-ryan{
+        flex-direction: column;
+    }
+    .informations-ryan{
+         width: 100%;
+    }
+    .photo-ryan{
+        max-width: 70%;        
+    }
+    .picture-block{
+        max-width: 100%;
+    }
 }

@@ -1,5 +1,5 @@
 function darkmode(){
-    darkmode_general(".page-project");
+    darkmode_general(".page-ryan");
     darkmode_general(".personality-block");
     darkmode_general(".likings-block");
     darkmode_general(".project-block");

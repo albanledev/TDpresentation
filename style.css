@@ -442,6 +442,7 @@ div.flex3{
      .lezgo{
        text-align: center;
        width: 200px;
+      
         
     }
 
@@ -454,6 +455,8 @@ div.flex3{
     .p3, .lezgo{
         margin-left: 50%;
     }
+
+    
 }
 
 .sep::after{

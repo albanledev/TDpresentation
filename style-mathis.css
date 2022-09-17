@@ -55,23 +55,38 @@ li{
 }
 
 
-.Presentation{
+.zonePresentation{
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 100px;
     display: flex;
-    font-size: larger;
     background-color: #98FB98
 
 }
 .textPresentation{
     margin-top: 250px;
-    margin-left: 100px;
+    margin-left: 250px;
+    font-size: larger;
 }
+
+.zoneSlider{
+    display: flex;
+    font-size: larger;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: green;
+}
+
+.textSlider{
+    margin-top: 350px;
+    margin-left: 100px;
+    font-size: larger;
+}
+
 .slider{
     width: 420px;
     overflow: hidden;
-    margin-left: 300px ;
+    margin-left: auto ;
 }
 .slides{
     width: calc(420px*3);

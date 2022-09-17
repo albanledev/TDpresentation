@@ -11,17 +11,17 @@ function darkmode_general(classNameElement){//ici le parametre permet de passer 
     for(let i=0; i<elements.length; i++){
          if (elements[i].classList.contains("dark-mode")==false){//la fonction contains retourne la valeur false si la classe mise en parametre se trouve dans la liste de class de l'élément 
             elements[i].classList.add("dark-mode");
-            localStorage.setItem("darkmode", "yes")
+            localStorage.setItem("darkmode", "yes")//j'enregistre dans le localStorage le fait d'etre dans le mode dark
         }
         else {
             elements[i].classList.remove("dark-mode");
-            localStorage.setItem("darkmode", "no")
+            localStorage.setItem("darkmode", "no")//j'enregistre dans le localStorage le fait de ne pas etre dans le mode dark
         } 
     }   
 }
 
 function load_page(){
-    let var_darkmode = localStorage.getItem("darkmode");
+    let var_darkmode = localStorage.getItem("darkmode");//lecture de la valeur de la clé darkmode dans le local storage
     if (var_darkmode=="yes"){
         darkmode();
     }

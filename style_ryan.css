@@ -138,9 +138,8 @@ li{
 }
 
 .picture{
-    
     display: block;
-    margin: auto;
+    text-align: center;
 }
 
 
@@ -152,7 +151,7 @@ li{
 .project-block{
     background-color: rgb(239, 233, 174);
     padding-bottom: 20px;
-    text-align: center;
+    
 }
 
 .project-text{
@@ -161,7 +160,7 @@ li{
 .text-italic {
     font-style: italic;
     color: #5a5a5a;
-    text-align: center;
+    
 }
 
 .bloc-footer{
@@ -189,4 +188,7 @@ li{
 .dark-mode{
     background-color: #203f47;
     color: seashell;
+}
+.project-ryan-video{
+    text-align: center;
 }

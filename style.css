@@ -150,8 +150,9 @@ li{
 }
 
 .project-block{
-    background-color: rgb(231, 224, 145);
+    background-color: rgb(239, 233, 174);
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .project-text{

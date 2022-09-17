@@ -11,9 +11,10 @@ function darkmode_general(classNameElement){//ici le parametre permet de passer 
     for(let i=0; i<elements.length; i++)
     if (elements[i].classList.contains("dark-mode")==false){//la fonction contains retourne la valeur false si la classe mise en parametre se trouve dans la liste de class de l'élément 
         elements[i].classList.add("dark-mode");
+        localStorage.setItem("darkmode", "yes")
     }
     else {
         elements[i].classList.remove("dark-mode");
-    }
-    
+        localStorage.setItem("darkmode", "no")
+    } 
 }

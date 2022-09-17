@@ -58,7 +58,7 @@ li{
     display: flex;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 180px;
+    margin-top: 160px;
     padding-left: 600px;
     background-color: #98FB98;
     font-size: larger;
@@ -79,17 +79,29 @@ li{
     font-size: larger;
 }
 
+
+.titreSlider{
+        display: flex;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 80px;
+        padding-left: 600px;
+        background-color: green;
+        font-size: larger;
+    
+}
 .zoneSlider{
     display: flex;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 100px;
+    margin-top: 20px;
     height: 600px;
     background-color: green;
     font-size: larger;
 }
 
 .textSlider{
+
     padding-top: 250px;
     margin-left: 100px;
     font-size: larger;
@@ -109,11 +121,22 @@ li{
     float: left;
 }
 
+.titreVideo{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 80px;
+    padding-left: 600px;
+    background-color: #3CB371;
+    font-size: larger;
+
+}
+
 .zoneProjet{
     display: flex;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
     height: 600px;
     background-color: #3CB371	;
@@ -127,7 +150,7 @@ li{
 }
 
 .videoProjet{
-
+    margin-top: 150px;
 }
 
 

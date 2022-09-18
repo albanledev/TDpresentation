@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@700 & family= Roboto:ital@1 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.prenoms{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: #24252a;
+}
+.navbar{
+    /* background-color: black; */
+    padding: 25px;
+    gap: 5%;
+    display: flex;
+    background-color: #24252a;
+    font-size: 1.2em;
+    justify-content: center;
+
+}
+
+li{
+    list-style-type: none;
+    transition: all 0.3s ease 0s;
+
+}
+
+.prenoms:hover{
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar::after{
+    content: "✨Mathis";
+    position: absolute;
+    width: 60%;
+    height: 70px;
+    background-color: orange;
+    top: 78px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family:'Lato',sans-serif;
+    color:#1e1a1a;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+main{
+    font-family:'Lato',sans-serif;
+}
+
+.titrePresentation{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 160px;
+    padding-left: 600px;
+    background-color: #98FB98;
+    font-size: larger;
+}
+.zonePresentation{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    height: 600px;
+    background-color: #98FB98;
+    font-size: larger;
+
+}
+.textPresentation{
+    padding-top: 250px;
+    margin-left: 100px;
+    font-size: larger;
+}
+
+
+.titreSlider{
+        display: flex;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 80px;
+        padding-left: 600px;
+        background-color: green;
+        font-size: larger;
+    
+}
+.zoneSlider{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    height: 600px;
+    background-color: green;
+    font-size: larger;
+}
+
+.textSlider{
+
+    padding-top: 250px;
+    margin-left: 100px;
+    font-size: larger;
+}
+
+.slider{
+    width: 420px;
+    overflow: hidden;
+    margin-left: auto ;
+}
+.slides{
+    width: calc(420px*8);
+    animation: glisse 11.5s infinite;
+}
+
+.slide{
+    float: left;
+}
+
+.titreVideo{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 80px;
+    padding-left: 600px;
+    background-color: #3CB371;
+    font-size: larger;
+
+}
+
+.zoneProjet{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 600px;
+    background-color: #3CB371	;
+    font-size: larger;
+}
+
+.textProjet{
+    padding-top: 250px;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+.videoProjet{
+    margin-top: 150px;
+}
+
+
+@keyframes glisse {
+    0%{
+        transform: translateX(0);
+    }    
+    14%{
+        transform: translateX(-420px);
+    }    
+    28%{
+        transform: translateX(-840px);
+    }    
+    42%{
+        transform: translateX(-1260px);
+    }    
+    56%{
+        transform: translateX(-1680px);
+    }    
+    70%{
+        transform: translateX(-2100px);
+    }    
+    84%{
+        transform: translateX(-2520px);
+    }  
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidein {
+    from {
+        top: 0;
+    }
+  
+    to {
+      top: 78px;
+    }
+  }

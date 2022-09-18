@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# TDpresentation
-This is a project where every teammate is introduced in a web page.
-=======
+
 # Hello there 💫, welcome to our group presentation !
 
 ## Who are we ?

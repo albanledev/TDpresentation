@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prenoms{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    
+}
+.navbar{
+    /* background-color: black; */
+    padding: 25px;
+    gap: 5%;
+    display: flex;
+    background-color: #24252a;
+    font-size: 1.2em;
+    justify-content: center;
+
+}
+
+li{
+    list-style-type: none;
+    transition: all 0.3s ease 0s;
+}
+
+.prenoms:hover{
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar::after{
+    content: "Ryan 💪🏼";
+    position: absolute;
+    width: 60%;
+    height: 70px;
+    background-color: orange;
+    top: 78px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family:sans-serif;
+    color:#1e1a1a;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@keyframes slidein {
+    from {
+        top: 0;
+    }
+  
+    to {
+      top: 78px;
+    }
+  }
+
+/*Begining of the styles proper to Ryan's page*/
+
+@keyframes block-enter-picture {
+    from{top: 0px; left:-50%;}
+    to{top: 0px; left:0%;}
+}
+@keyframes block-enter-infos {
+    from{top: 0px; right:-50%;}
+    to{top: 0px; right:0%;}
+}
+
+
+.bloc-informations-ryan{
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    gap: 100px;
+    justify-content: center;
+    
+}
+
+.picture-block{
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    animation-name: block-enter-picture;
+    animation-duration: 2s;
+}
+
+.photo-ryan{
+    max-width: 50%;
+    position: sticky;
+    top: 0;   
+}
+
+.informations-ryan{
+    width: 50%;
+    animation-name: block-enter-infos;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.titre-on-me{
+    text-align: left;
+    background-color: orange;
+    padding: 20px;
+    
+    text-align: center;
+}
+
+.sous-titre{
+    text-align: left;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.likings-block{
+    background-color: rgb(240, 179, 118);
+    padding-bottom: 20px;
+}
+
+.linkings-text{
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.picture{
+    display: block;
+    text-align: center;
+}
+
+
+.personality-block{
+    background-color: rgb(133, 196, 235);
+    padding-bottom: 20px;
+}
+
+.project-block{
+    background-color: rgb(239, 233, 174);
+    padding-bottom: 20px;
+    
+}
+
+
+.text-italic {
+    font-style: italic;
+    color: #5a5a5a;
+    
+}
+
+.bloc-footer{
+    padding: 40px;
+    background-color: #1e1a1a;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.darkmode-button{
+    background-color: #8b8a8a;
+    border-radius: 6px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.darkmode-button:hover{
+    cursor: pointer;
+    background-color: #203f47;
+}
+
+.dark-mode{
+    background-color: #203f47;
+    color: seashell;
+}
+.project-ryan-video{
+    text-align: center;
+}
+
+@media only screen and (max-width: 590px) {
+    .bloc-informations-ryan{
+        flex-direction: column;
+    }
+    .informations-ryan{
+         width: 100%;
+    }
+    .photo-ryan{
+        max-width: 70%;        
+    }
+    .picture-block{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1032px) {
+    .bloc-informations-ryan{
+        flex-direction: column;
+    }
+    .informations-ryan{
+         width: 100%;
+    }
+    .photo-ryan{
+        max-width: 70%;        
+    }
+    .picture-block{
+        max-width: 100%;
+    }
+}
